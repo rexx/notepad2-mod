@@ -21,6 +21,7 @@
     "lmLua",
     "lmMake",
     "lmMarkdown",
+    "lmMatlab",
     "lmNsis",
     "lmNull",
     "lmPascal",
