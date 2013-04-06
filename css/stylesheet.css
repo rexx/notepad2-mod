@@ -1,3 +1,6 @@
+/*csslint box-sizing: false, font-sizes: false, important: false,
+  qualified-headings: false, unique-headings: false*/
+
 /* LAYOUT STYLES */
 body {
     background: #fafafa url("../img/body-bg.jpg") 0 0 repeat;
@@ -50,10 +53,6 @@ header h2 {
     width: 540px;
 }
 
-header a:focus {
-    outline: none !important;
-}
-
 header a:link,
 header a:hover,
 header a:visited {
@@ -66,7 +65,7 @@ header a:visited {
     width: 940px;
 }
 
-#content-wrapper {
+.content-wrapper {
     border-top: solid 1px white;
     padding-top: 30px;
 }
@@ -95,7 +94,6 @@ a.button {
     color: white;
     font-size: 24px;
     line-height: 1.2;
-    outline: none !important;
     padding-left: 68px;
     padding-top: 22px;
     width: 134px;
@@ -308,7 +306,7 @@ dl dd {
     display: block;
 }
 
-#version {
+.version {
     border: 2px solid #ebebeb;
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
@@ -316,7 +314,7 @@ dl dd {
     padding: 0 4px;
 }
 
-#version span {
+.version span {
     color: DodgerBlue;
     font-size: 1.3em;
 }
