@@ -107,7 +107,7 @@ a.button {
     height: 80px;
 }
 
-a.button small {
+.button small {
     display: block;
     font-size: 11px;
 }
@@ -424,7 +424,7 @@ dl dd {
         height: auto;
     }
 
-    a.button small {
+    .button small {
         display: inline;
         font-size: 13px;
     }
