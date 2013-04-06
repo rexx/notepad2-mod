@@ -6,6 +6,7 @@ body {
     background: #fafafa url("../img/body-bg.jpg") 0 0 repeat;
     color: #666;
     font: 15px/1.5 "Helvetica Neue", Helvetica, Arial, serif;
+    margin: 0;
 }
 
 h1,
@@ -119,6 +120,10 @@ header a.button {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+img {
+    border: 0;
 }
 
 code,
