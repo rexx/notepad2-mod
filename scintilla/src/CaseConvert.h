@@ -1,4 +1,4 @@
-// Scintilla source code edit control
+﻿// Scintilla source code edit control
 // Encoding: UTF-8
 /** @file CaseConvert.h
  ** Performs Unicode case conversions.
@@ -32,7 +32,7 @@ const char *CaseConvert(int character, enum CaseConversion conversion);
 
 // When performing CaseConvertString, the converted value may be up to 3 times longer than the input.
 // Ligatures are often decomposed into multiple characters and long cases include:
-// ΐ "\xce\x90" folds to ΐ "\xce\xb9\xcc\x88\xcc\x81"
+// Î "\xce\x90" folds to Î¹ÌˆÌ "\xce\xb9\xcc\x88\xcc\x81"
 const int maxExpansionCaseConversion=3;
 
 // Converts a mixed case string using a particular conversion.
